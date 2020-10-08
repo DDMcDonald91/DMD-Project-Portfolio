@@ -1,0 +1,48 @@
+/* CSS Styling for Music (music.html) page */
+:root {
+  --grad-1: rgb(128,179,171);
+  --grad-2: rgb(30,41,58);
+}
+
+body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(128,179,171);
+  background: linear-gradient(45deg, var(--grad-1) 0%, var(--grad-2) 100%);
+}
+
+.blog-masthead{
+  background-color: black;
+}
+
+.blog-header h1{
+  padding-bottom: 10px;
+}
+
+.blog-header h1, h2{
+  text-align: center;
+}
+
+.newsTitle{
+    padding-bottom: 20px;
+}
+
+img{
+  width: 30%;
+  height:auto;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid black;
+}
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
